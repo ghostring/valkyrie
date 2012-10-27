@@ -1,0 +1,54 @@
+### PATH DIRECTORY ###
+
+################################################
+#             Don't change this                #
+################################################
+pathfilter  : /etc/valkyrie/filter.log         #
+pathipa     : /var/log/valkyeie/ip.txt         #
+pathipb     : /var/log/valkyeie/ip2.txt        #
+pathpcap    : /var/log/valkyrie/valkyrie.pcap  #
+                                               #
+################################################
+
+#sytem log (optional)                         
+pathsys     : /var/log/messages                
+###############################################
+#             MAIL FOR SEND LOG               #
+###############################################
+pid         : /var/run/unixdaemon.pid
+username    : 
+password    :                      
+sendto      : 
+debug       : 0
+###############################################
+#                SMTP SERVER                  # 
+###############################################
+# gmail;
+smtp        : smtp.gmail.com
+port        : 465
+# yahoo;
+#smtp        : smtp.mail.yahoo.com
+#port        : 25
+# hotmail/live;
+#smtp        : smtp.live.com
+#port        : 587
+###############################################
+#                 FIREWALL                    #
+###############################################
+# destination port for blocking incoming packets
+# and outgoing packet. default is 'all' or  
+# you can select specify port (e.g 22,21,etc)
+desport      : all
+###############################################
+#               PACKET CAPTURE                #
+###############################################
+# device (e.g wlan0, eth0, etc)
+iface      : wlan0
+# packets per loop
+ploop      : 10
+# bytes to capture
+bytes      : 1024
+# timeout in ms
+timeout    : 0
+# promiscuous mode (default is 0)
+promode    : 0

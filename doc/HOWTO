@@ -1,0 +1,38 @@
+########################
+# Install & Uninstall
+########################
+
+
+Install Valkyrie
+~~~~~~~~~~~~~~~~~
+
+1. give executable permissions before you run file install.sh (must be root)
+
+# chmod u+x install.sh
+
+2. Execute install.sh
+
+# ./install.sh 
+
+
+Uninstall Etherwall 
+~~~~~~~~~~~~~~~~~~~
+
+1. give executable permissions before you run file uninstall.sh (must be root)
+
+# chmod u+x uninstall.sh
+
+2. Execute uninstall.sh
+
+# ./uninstall.sh 
+
+
+########################
+# How to ?
+########################
+
+
+Please read the etherwall manual pages first !
+
+# man valkyrie
+
