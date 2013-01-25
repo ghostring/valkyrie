@@ -1,12 +1,7 @@
-##############################################################
-#
-# valkyrie -- Network security tool for prevents Bruteforce and Dictionary attack
-# Gika Megawan <mail@gika09.info>
-#
-# http://rndc.or.id
-# http://gika09.info
-#
-############################################################# 
+valkyrie -- Network security tool for prevents Bruteforce and Dictionary attack
+Gika Megawan <mail@gika09.info>
+http://rndc.or.id
+http://gika09.info
 
 
 Table of Contents
