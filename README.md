@@ -39,13 +39,13 @@ Valkyrie is Free Software but no Any Warranty, The entire risk of failure, damag
 
 Valkyrie needs dependency package, so You'll need:
 
-  Larry Wall's Perl >= 5.12.3
-  Rusty Russell's Iptabels
-  Paul Miller's Net::Pcap::Easy
-  Symkat's Daemon::Control
-  Adam Kennedy's List::MoreUtils
-  Casey West's Net::SMTP::SSL
-  Timothy Appnel's Config::YAML::Tiny
+ - Larry Wall's Perl >= 5.12.3
+ - Rusty Russell's Iptabels
+ - Paul Miller's Net::Pcap::Easy
+ - Symkat's Daemon::Control
+ - Adam Kennedy's List::MoreUtils
+ - Casey West's Net::SMTP::SSL
+ - Timothy Appnel's Config::YAML::Tiny
   
 
 [+] Install & Howto 
