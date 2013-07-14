@@ -25,7 +25,7 @@
 use strict;
 use List::MoreUtils qw(uniq);
 use Net::SMTP::SSL;
-# use Time::localtime;
+use Time::localtime;
 use Config::YAML::Tiny;
 no warnings "uninitialized";
 
