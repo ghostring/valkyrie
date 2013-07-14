@@ -49,7 +49,7 @@ my $daemon = Daemon::Control->new({
 	unlink ("/var/log/valkyrie/ip.txt","/var/log/valkyrie/ip2.txt");
 # 	my $proc = `ps ax | grep /opt/valkyrie/fix/packetcapture.pm`;
 # 	(my $owner,my $pid,my $junk) = split(' ',$proc);
-# 	system "kill $owner";
+
 	$usage = $daemon->do_stop;
      }
     elsif ($usage eq 'restart'){
