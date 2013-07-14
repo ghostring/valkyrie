@@ -42,8 +42,8 @@ desport      : all
 ###############################################
 #               PACKET CAPTURE                #
 ###############################################
-# device (e.g wlan0, eth0, etc)
-iface      : wlan0
+# your device 
+iface      : 
 # packets per loop
 ploop      : 10
 # bytes to capture
