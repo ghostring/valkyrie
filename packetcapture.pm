@@ -28,7 +28,7 @@ use Net::Pcap::Easy;
 open (LOG, ">/var/log/valkyrie/valkyrie.pcap");
 
 my $npe = Net::Pcap::Easy->new(
-    dev              => "wlan0",
+    dev              => "yourdevice",
     #filter           => " ",
     packets_per_loop => 10,
     bytes_to_capture => 1024,
